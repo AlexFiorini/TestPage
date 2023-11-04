@@ -1,6 +1,3 @@
-function load_resume() {
-}
-
 $(document).ready(function() {
     generate_qr();
     load_resume();
