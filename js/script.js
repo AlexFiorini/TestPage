@@ -1,6 +1,4 @@
 $(document).ready(function() {
-    generate_qr();
-    load_resume();
     $('#btn-qr').fancybox({
         openEffect : 'elastic',
         closeEffect : 'elastic',
