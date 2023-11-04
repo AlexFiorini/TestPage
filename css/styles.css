@@ -1,0 +1,91 @@
+body {
+    font: 24px Helvetica,Tahoma,Arial,Sans,Sans-serif;
+    font-weight: bold;
+    background-color: #2c2c2c;
+    color: #cccccc;
+}
+
+a {
+    color: #cccccc;
+    font-style: normal;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: Helvetica,Tahoma,Arial,Sans,Sans-serif;
+    margin-left: 20px;
+    float: left;
+    font-weight: bold;
+    color: black;
+    text-shadow: 0 2px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.clear {
+    clear: both;
+}
+
+#content {
+    width: 640px;
+    height: 480px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -240px 0px 0px -320px;
+    display: none;
+}
+
+#the_list {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#qr { display: none; }
+#resume { display: none; }
+
+#the_list>li {
+    list-style: none;
+    font-family: Monaco, Consolas, Courier New, monospace;
+    margin: 4px 0 4px 0;
+}
+
+.title_right {
+    margin-top: 48px;
+    margin-left: 12px;
+    float: right;
+}
+
+.title_right_icon {
+    font-size: 32px;
+}
+
+.title_right_text {
+    padding-top: 14px;
+    font-size: 16px;
+}
+
+.title_right_line {
+    border-right-style: solid;
+    border-right-width: 2px;
+    height: 32px;
+}
+
+
+.blog { color: #4183c4; }
+.gmail { color: #dc4b39; }
+.irc { color: #73c27d; }
+.twitter { color: #00acee; }
+.instagram { color: #b4937f; }
+.icon-stackoverflow {
+    background-image: url('stackoverflow.png');
+    background-size: 32px 32px;
+    height: 32px;
+    width: 32px;
+}
+
+iframe {
+    border: none
+}
